@@ -189,7 +189,9 @@ background-size: cover;
   place-self: center;
   width: 103%;
 }
-
+@media(max-width:899px){
+  .main_section-bg_image{ height: auto; }
+}
 @media (min-width: 900px){
   .main_section{
     display:grid;
@@ -242,7 +244,7 @@ background-size: cover;
   .tile-info_section > .tile-info_right-image{
     width: 100vw;
     display: grid ;
-    height: clamp(25vw, 400px, 15vh);
+    height: clamp(50vw, 800px, 30vh);
     padding: 2rem;
   }
 }   
@@ -492,8 +494,9 @@ background-size: cover;
 
 @media (max-width:900px){
   .tile-images-container{
-  grid-template-columns: 1fr;
-  
+      grid-template-columns: 1fr;
+    width: 50vw;
+    place-self: center;
   }
 }
 
