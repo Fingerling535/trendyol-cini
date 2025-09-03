@@ -712,7 +712,7 @@ summary{
 }
 
 /* Logo */
-.footer-logo img{
+.footer-logo{
   height: clamp(40px, 6vw, 72px);   /* tasarımdaki gibi oranlı küçülür/büyür */
   width: auto;
   display:block;
